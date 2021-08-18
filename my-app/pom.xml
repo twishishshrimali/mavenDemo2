@@ -57,19 +57,6 @@
 	</configuration>
       </plugin>
       <plugin>
-          <!-- This plugin will set the properties values using dependency information -->
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-dependency-plugin</artifactId>
-          <version>2.3</version>
-          <executions>
-              <execution>
-                  <goals>
-                      <goal>properties</goal>
-                  </goals>
-              </execution>
-          </executions>
-      </plugin>
-      <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <configuration>
               <source>1.8</source>
